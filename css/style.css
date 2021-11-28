@@ -1,0 +1,339 @@
+.header-container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.larger-container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.first-sec{
+    background-color: #F6F8F9;
+}
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    background-color: #F6F8F9;
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 17px;
+}
+.text-logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FA6980;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul li a {
+    text-transform: uppercase;
+    color: #343638;
+    font-size: 11px;
+    font-weight: bold;
+    opacity: 50%;
+}
+.nav-li:nth-child(1) a {
+    opacity: 100%;
+}
+.nav-li:nth-child(2){
+    margin-left: 27px;
+    margin-right: 22px;
+}
+.nav-li:nth-child(4){
+    margin-left: 22px;
+    margin-right: 40px;
+}
+.nav-and-img {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-image img:hover {
+    transform: scale(1.5);
+}
+.first-sec {
+    display: flex;
+}
+.left-block {
+    background-image: url(../images/left-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 840px;
+    width: 60%;
+    padding: 177px 100px 0 140px;
+    
+}
+.left-inner-block {
+    font-family: 'Helvetica';
+    color: white;
+    width: 71%;
+    height: 247px;
+}
+.left-inner-block h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+.left-inner-block h3::after {
+    content: "";
+    height: 1px;
+    max-width: 560px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.left-inner-block h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+.left-inner-block p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 56px;
+}
+.learn-more {
+    padding: 16px 30px;
+    background-color: #FA6980;
+    border-radius: 6px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+.right-block {
+    max-width: 600px;
+    width: 40%;
+    padding: 100px 120px 100px 100px;
+    background-color: white;
+}
+.fa-chevron-left {
+    width: 6px;
+    opacity: 30%;
+    height: 10px;
+}
+.fa-chevron-right {
+    width: 6px;
+    margin-left: 43px;
+    height: 10px;
+}
+.text-and-arrows {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: rgb(235, 227, 227) 1px solid;
+    margin-bottom: 40px;
+}
+.text-and-arrows h3 {
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+.news-1 h2 {
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    color: #FA6980;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.news-1 h3 {
+    font-weight: bold;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.news-1 article {
+    font-family: 'Acumin Pro';
+    font-size: 16px;
+    color: #A6ADB4;
+    line-height: 26px;
+}
+.timing {
+    display: flex;
+    color: #CBD0D3;
+    align-items: center;
+}
+.timing p {
+    margin-left: 10px;
+}
+.news-1 {
+    margin-bottom: 40px;
+}
+.trending-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.section-2-title {
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: bold;
+}
+.bg-place1 {
+    background-image: url(../images/Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+}
+.bg-place2 {
+    background-image: url(../images/annie-spratt-216507-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+}
+.bg-place3 {
+    background-image: url(../images/carlos-hevia-628890-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+}
+.block {
+    width: 360px;
+}
+.info-place {
+    padding: 40px;
+    background-color: white;
+}
+.info-place h4 {
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+}
+.info-place p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Acumin Pro";
+    font-size: 13px;
+    color: #A6ADB4;
+}
+.tr-title-and-arrows{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.trending-section {
+    padding-top: 40px;
+    background-color: #F6F8F9;
+    padding-bottom: 40px;
+}
+.happening-2-big{
+    width: 60%;
+}
+.big-block-1{
+    background-image: url(../images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    margin-bottom: 40px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.big-block-2 {
+    background-image: url(../images/forrest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.img-place1 {
+    background-image: url(../images/elephant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+}
+.img-place2 {
+    background-image: url(../images/bird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+}
+.img-place3 {
+    background-image: url(../images/road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+}
+.happening-3-small {
+    width: 37%;
+}
+.happening-blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.small-block:nth-child(2) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.small-block-info {
+    margin-top: 20px;
+}
+.small-block-info h4 {
+    font-family: 'Acumin Pro';
+    font-size: 16px;
+    font-weight: bold;
+}
+.small-block-info .timing {
+    font-family: 'Helvetica';
+    margin-top: 10px;
+}
+.author {
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.big-block-1 h4, .big-block-2 h4 {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 232px;
+}
+.bottom-info h3 {
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: bold;
+}
+.bottom-info p {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+    width: 85%;
+}
+.happ-section {
+    background-color: #F6F8F9;
+    padding-bottom: 100px;
+}
+.bottom-info .timing {
+    font-family: "Helvetica";
+    
+}
