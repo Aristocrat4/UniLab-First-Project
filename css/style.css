@@ -16,7 +16,7 @@
 }
 .container {
     max-width: 1160px;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
 }
 .header {
@@ -209,7 +209,8 @@
     height: 180px;
 }
 .block {
-    width: 360px;
+    max-width: 360px;
+    width: 30%;
 }
 .info-place {
     padding: 40px;
@@ -335,5 +336,85 @@
 }
 .bottom-info .timing {
     font-family: "Helvetica";
-    
+}
+footer{
+    background-color: #A6ADB4;
+    padding-bottom: 60px;
+    padding-top: 54px;
+}
+.footer-nav-block {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.foot-cont {
+    max-width: 1160px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Acumin Pro';
+    font-weight: bold;
+    font-size: 13px;
+}
+.footer-nav ul li a, .second-ul li a, .third-ul li a{
+    color: #CBD0D3;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+.footer-nav ul li, .second-ul li, .third-ul li {
+    margin-bottom: 8px;
+}
+.socials {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.socials a {
+    color: white;
+}
+#email {
+    width: 262px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+    opacity: 10%;
+}
+#email::placeholder{ 
+    color: #ffffff;
+    font-family: 'Helvetica';
+    font-size: 13px;
+    font-weight: bold;
+}
+.subscribe form {
+    position: relative;
+}
+.subscribe form label {
+    font-family: 'Helvetica';
+    font-size: 11px;
+    color: #CBD0D3;
+    margin-top: 14px;
+}
+.btn {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 12px;
+    right: 0;
+    color: white;
 }
