@@ -587,11 +587,11 @@ footer{
 .counter-divider, .page-counter {
     display: none;
 }
-.mobile-navigation{
+.mobile-navigation, .transparent{
     display: none;
 }
 @media (max-width: 1024px){
-    .mobile-navigation {
+    .mobile-navigation, .transparent {
         display: none;
     }
     .header{
@@ -776,6 +776,15 @@ footer{
     }
 }
 @media (max-width: 680px){
+    .transparent {
+        position: absolute;
+        background-color: transparent;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        width: 100%;
+        height: 100%;
+    }
     .counter-divider {
         display: block;
     }
@@ -890,6 +899,9 @@ footer{
     }
     .hidden {
         display: none;
+    }
+    #black{
+        color: black;
     }
     .news-hd {
         display: flex;
