@@ -587,7 +587,13 @@ footer{
 .counter-divider, .page-counter {
     display: none;
 }
+.mobile-navigation{
+    display: none;
+}
 @media (max-width: 1024px){
+    .mobile-navigation {
+        display: none;
+    }
     .header{
         width: 100%;
     }
@@ -920,5 +926,94 @@ footer{
     .elephant-bg {
         padding: 25%;
         height: auto;
+    }
+    .appear { 
+        display: block;
+    }
+    .mobile-navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 60%;
+        z-index: 10;
+        background-color: white;
+        height: 100%;
+        box-shadow: -35px 0 194px 39px grey;    }
+    .mob-logo {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .mob-nav {
+        margin: 70px 0 90px 40px;
+    }
+   
+    .mob-logo a {
+        text-transform: uppercase;
+        font-family: 'Helvetica';
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 20px;
+        color: #FA6980;
+        margin-bottom: 53px;
+    }
+    .mob-nav-ul li{
+        margin: 34px 0;
+        color: #343638;
+        opacity: 50%;
+        vertical-align: middle;
+        display: flex;
+        align-items:center;
+
+    }
+    .mob-nav li a{
+        color: #343638;
+        margin-left: 30px;
+        font-weight: bold;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-family: 'Helvetica';
+    }
+    #home-btn {
+        opacity: 100%;
+    }
+    #profile-img {
+        opacity: 100%;
+        color: black;
+    }
+    #profile {
+        opacity: 50%;
+    }
+    .mob-nav-footer {
+        background-color: #BDBFC0;
+        height: 100%;
+    }
+    .footer-container {
+        padding: 40px 40px;
+    }
+    .footer-nav-lists {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-nav-lists li {
+        margin-bottom: 10px;
+    }
+    .fab, .fas {
+        color: white;
+    }
+    .footer-nav-lists ul li a {
+        color: white;
+        opacity: 50%;
+        font-family: 'Helvetica';
+        font-size: 11px;
+        line-height: 20px;
+        font-weight: bold;
+        margin: 29px 0;
+        text-transform: uppercase;
+    }
+    .mob-nav-socials {
+        margin-top: 30px;
+    }
+    .mob-nav-socials a:nth-child(2),.mob-nav-socials a:nth-child(3),.mob-nav-socials a:nth-child(4) {
+        margin-left: 24px;
     }
 }
