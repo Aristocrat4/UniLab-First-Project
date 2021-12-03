@@ -14,6 +14,7 @@ const nextBtn = document.querySelector('.next');
 const postNum = document.querySelector('.post-num');
 const postTitle = document.querySelector('.post-title');
 const post = document.querySelector('.post-p');
+const randomBtn = document.querySelector('.random-post');
 let counter = 1;
 postNum.textContent = `Post #${counter}`;
 
@@ -42,8 +43,14 @@ function renderPost () {
         nextBtn.addEventListener('click', function(){
             counter++;
             if (counter > responseInfo.length - 1){
-                counter = 0;
+                counter = 1;
             }
+            postNum.textContent = `Post #${counter}`;
+            postTitle.textContent = responseInfo[counter].title;
+            post.textContent = responseInfo[counter].body;
+        })
+        randomBtn.addEventListener('click', function (){
+            counter = Math.trunc(Math.random()*responseInfo.length);
             postNum.textContent = `Post #${counter}`;
             postTitle.textContent = responseInfo[counter].title;
             post.textContent = responseInfo[counter].body;

@@ -603,6 +603,18 @@ footer{
     align-items: center;
 }
 .post-switcher button {
+    width: 85px;
+    border: none;
+    background-color: crimson;
+    padding: 10px 0;
+    font-family: 'Helvetica';
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.random-post {
     width: 100px;
     border: none;
     background-color: crimson;
@@ -612,6 +624,7 @@ footer{
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+    border-radius: 6px;
 }
 .post-num {
     margin: 0 25px;
@@ -624,12 +637,14 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .post-title {
     font-family: 'Helvetica';
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
 }
 .post-p {
     margin-top: 20px;
@@ -637,6 +652,7 @@ footer{
     font-size: 13px;
     max-width: 700px;
     width: 90%;
+    text-align: center;
 }
 @media (max-width: 1024px){
     .mobile-navigation, .transparent {
